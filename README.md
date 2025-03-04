@@ -65,7 +65,7 @@ cd your_repository
 ## Customization
 
 - Modify Watermark Properties: You can customize the watermark properties like font size, color, position, and transparency in the `watermarker.py` script. This requires some knowledge of FFmpeg commands and syntax. FFmpeg is a powerful tool for video processing, but modifications should be made carefully to ensure they are syntactically correct and meet your requirements. You might want to consult [FFmpeg's documentation](https://ffmpeg.org/documentation.html) for more details and examples on how to adjust the drawtext filter or other FFmpeg options.
-- Adapt the application for non-Windows platforms by adjusting subprocess command handling.
+- Change Video Settings: Please note that the script resizes videos to 1280x720 and may re-encode them using the H.264 codec. If maintaining original size or format is critical for your application, modify the scale settings in the `text_filter` or adjust additional FFmpeg flags to align with your specific requirements.
 
 ## Troubleshooting
 
