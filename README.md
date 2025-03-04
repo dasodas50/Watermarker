@@ -51,7 +51,7 @@ cd your_repository
    - Add Users: Use the input field and button in the GUI to add new users to the list.
    - Search Users: Use the search bar to filter and find specific users quickly.
    - Select and Delete Users: Highlight and delete user(s) from the list using the delete button. You can select multiple users at once using `CTRL` (to select non-contiguous users) or `Shift` (to select a range of users).
-   - Directly Edit `users.json`: For advanced management, you can directly modify the `users.json` file located in the same directory as the script. This file stores the user data in JSON format, and you can manually add, update, or remove entries. Be sure to follow JSON syntax rules when editing this file.
+   - Directly Edit `users.json`: For advanced management, you can directly modify the `users.json` file located in the same directory as the script. This file stores the data in JSON format, and you can manually add, update, or remove entries. It’s important to note that you can add any text you want as a watermark, not limited to usernames. This flexibility allows you to include phrases, identifiers, or other relevant information to be used as watermarks. Be sure to follow JSON syntax rules when editing this file.
      
 3. **File Management**:
    - Add Files: Drag and drop videos into the application or use the file dialog to select them manually.
