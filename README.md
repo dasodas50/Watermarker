@@ -45,7 +45,7 @@ cd your_repository
    ```bash
    python Watermarker_GUI.py
    ```
-   Or, you can rename `Watermarker_GUI.py` to `Watermarker_GUI.**pyw**` and start it as a usual application, which will prevent a command prompt window from opening alongside your app on Windows. Just double-click the `Watermarker_GUI.pyw` file to run the application directly.
+   Or, you can rename `Watermarker_GUI.py` to `Watermarker_GUI.pyw` and start it as a usual application, which will prevent a command prompt window from opening alongside your app on Windows. Just double-click the `Watermarker_GUI.pyw` file to run the application directly.
 
 2. **User Management**:
    - Add Users: Use the input field and button in the GUI to add new users to the list.
